@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      // Target latest version of ECMAScript.
+      "target": "es2018",
+      // Search under node_modules for non-relative imports.
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "./lib",
+      "baseUrl": "./src",
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "allowSyntheticDefaultImports": true,
+      "typeRoots": ["./node_modules/@types"]
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
